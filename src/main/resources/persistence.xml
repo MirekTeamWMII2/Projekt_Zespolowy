@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+        	 http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" version="2.0">
+    <persistence-unit name="default">
+        <class>com.mirek_team.ob.RoleOB</class>
+        <class>com.mirek_team.Enums.EUserType</class>
+        <class>com.mirek_team.ob.ProjectOB</class>
+        <class>com.mirek_team.ob.RoleOB</class>
+        <class>com.mirek_team.ob.UserOB</class>
+        <class>com.mirek_team.ob.PermissionOB</class>
+        <class>com.mirek_team.ob.PriorityOB</class>
+        <class>com.mirek_team.ob.TicketOB</class>
+        <class>com.mirek_team.Enums.ETicketType</class>
+        <class>com.mirek_team.ob.HistoryOB</class>
+        <class>com.mirek_team.Enums.EHistoryType</class>
+        <class>com.mirek_team.ob.AttachmentOB</class>
+        <class>com.mirek_team.ob.BinaryOB</class>
+    </persistence-unit>
+</persistence>
